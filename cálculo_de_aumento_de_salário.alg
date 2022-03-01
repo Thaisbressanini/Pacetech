@@ -1,14 +1,13 @@
-algoritmo "Cálculo de aumento de salário"
+algoritmo "CÃ¡lculo de aumento de salÃ¡rio"
 
 var
 salario, aumento, somandoAumento: real
 
 inicio
-aumento <- 0.30
 
-Escreval ("Informe seu salário para calcular 30% de aumento: ")
+Escreval ("Informe seu salÃ¡rio para calcular 30% de aumento: ")
          Leia(salario)
-somandoAumento <- salario * aumento
-Escreval ("Seu salário com aumento: ", somandoAumento + salario)
+somandoAumento <- salario * 0.3
+Escreval ("Seu salÃ¡rio com aumento: ", somandoAumento + salario)
 
 fimalgoritmo
